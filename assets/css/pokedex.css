@@ -84,6 +84,17 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    transition: .3s;
+}
+
+.poke-states:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform .2s ease-in-out;
+}
+
+.poke-states:active {
+    filter: brightness(0.85);
 }
 
 .pokemon .number {

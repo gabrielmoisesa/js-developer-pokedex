@@ -12,7 +12,41 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #fff;
+  transform: translate(-52.5%, -50%);
   padding: 20px;
+  display: flex;
+  width: 40vh;
+  text-align: center;
+  gap: 1.5rem;
+  border: 6px solid yellow;
+}
+
+.modal-content .number {
+  text-align: end;
+  font-size: 1.2rem;
+}
+
+.modal-content .name {
+  font-size: 2.2rem;
+}
+
+.modal-content .detail {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.modal-content .detail img {
+  height: 30vh;
+  margin-bottom: 1rem;
+}
+
+.modal-content .types-title {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.modal-content .detail .types .type {
+  font-size: 1.1rem;
 }
